@@ -48,9 +48,6 @@ clean_phyloseq = paste0(clean_data_dir, 'clean_mouse_cultures_phlyoseq.RDS')
 filt_phyloseq = paste0(clean_data_dir, 'filt_mouse_cultures_phlyoseq.RDS')
 
 
-
-
-
 #--------------------------------------------
 # Functions
 #--------------------------------------------
