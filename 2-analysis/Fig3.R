@@ -359,6 +359,22 @@ ggplot(df2plot.corr,
   ylab('Small intestine of \nStoolCom into SICom-colonized mice')
 ggsave(paste0(fig_dir,'subpanels/Fig_3D_crossScatterPlot_a.pdf.pdf'), width=2.5,height=2.5)
 
+
+# Compute shared abundance
+stool.shared<-ps.mouseexp1.filt %>% transform_sample_counts(function(x) x/sum(x)) %>%
+  psmelt() %>% 
+  filter(Sample %in% c('mouse_exp1_Stool_SC into IC-mouse','mouse_exp1_Stool_IC into SC-mouse')) %>%
+  filter(Abundance > 0) %>%
+  group_by(OTU) %>%
+  dplyr::summarise(num = n()) %>% filter(num>1)
+dim(stool.shared)
+ps.mouseexp1.filt %>% transform_sample_counts(function(x) x/sum(x)) %>%
+  psmelt() %>% 
+  filter(Sample %in% c('mouse_exp1_Stool_SC into IC-mouse','mouse_exp1_Stool_IC into SC-mouse')) %>%
+  filter(Abundance > 0, !OTU %in% stool.shared$OTU) %>%
+  group_by(Sample) %>% dplyr::summarise(sum(Abundance))
+
+
 # Compute shared abundance
 si.shared<-ps.mouseexp1.filt %>% transform_sample_counts(function(x) x/sum(x)) %>%
   psmelt() %>% 
@@ -386,20 +402,6 @@ ggplot(df2plot.corr,
   xlab('Stool of \nSICom into StoolCom-colonized mice')+
   ylab('Stool of \nStoolCom into ICCom-colonized mice')
 ggsave(paste0(fig_dir,'subpanels/Fig_3D_crossScatterPlot_b.pdf.pdf'), width=2.5,height=2.5)
-
-# Compute shared abundance
-stool.shared<-ps.mouseexp1.filt %>% transform_sample_counts(function(x) x/sum(x)) %>%
-  psmelt() %>% 
-  filter(Sample %in% c('mouse_exp1_Stool_SC into IC-mouse','mouse_exp1_Stool_IC into SC-mouse')) %>%
-  filter(Abundance > 0) %>%
-  group_by(OTU) %>%
-  dplyr::summarise(num = n()) %>% filter(num>1)
-dim(stool.shared)
-ps.mouseexp1.filt %>% transform_sample_counts(function(x) x/sum(x)) %>%
-  psmelt() %>% 
-  filter(Sample %in% c('mouse_exp1_Stool_SC into IC-mouse','mouse_exp1_Stool_IC into SC-mouse')) %>%
-  filter(Abundance > 0, !OTU %in% stool.shared$OTU) %>%
-  group_by(Sample) %>% dplyr::summarise(sum(Abundance))
 
 
 ### SI only: Cross-colonizations comparison to DualCom
@@ -521,8 +523,6 @@ stat_test
 
 ggsave(paste0(fig_dir, 'subpanels/Fig_3E_shannonDiv.pdf'),width=3,height=2)
 
-
-
 #######################################
 # Fig. 3F: Ordination
 #######################################
@@ -618,4 +618,4 @@ t <- rep.df %>% filter(!mouse_exp1_Small.Intestine_IC.into.SC.mouse == -3 && !Mo
     xlab('Small intestine of \nSICom into StoolCom-colonized mice')+
     ylab('Human small intestine 2522'))
 
-draggsave(paste0(fig_dir, 'subpanels/Fig_2D_scatterPlots.pdf'), width = 5, height = 5)
+ggsave(paste0(fig_dir, 'subpanels/Fig_2D_scatterPlots.pdf'), width = 5, height = 5)
