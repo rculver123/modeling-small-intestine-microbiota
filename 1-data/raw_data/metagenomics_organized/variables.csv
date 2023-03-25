@@ -1,0 +1,261 @@
+﻿Plate,Well,Column,Project,SampleType,Mouse,Date,Day,Isolator,Isolator_2,Community,MouseType,Isolate,Isolate_Source,Diet,DNA Extracted,BioHub_Name
+1,A,1,MouseExp3,Proximal,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A1_Proximal_m1Normal_S1
+1,A,2,MouseExp3,Mid,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A2_Mid_m1Normal_S2
+1,A,3,MouseExp3,Distal,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A3_Distal_m1Normal_S3
+1,A,4,MouseExp3,Proximal,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A4_Proximal_m2Normal_S4
+1,A,5,MouseExp3,Mid,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A5_Mid_m2Normal_S5
+1,A,6,MouseExp3,Distal,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A6_Distal_m2Normal_S6
+1,A,7,MouseExp3,Proximal,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A7_Proximal_m3Normal_S7
+1,A,8,MouseExp3,Mid,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A8_Mid_m3Normal_S8
+1,A,9,MouseExp3,Distal,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A9_Distal_m3Normal_S9
+1,A,10,MouseExp3,Proximal,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A10_Proximal_m4Normal_S10
+1,A,11,MouseExp3,Mid,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A11_Mid_m4Normal_S11
+1,A,12,MouseExp3,Distal,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_A12_Distal_m4Normal_S12
+1,B,1,MouseExp3,Proximal,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_B1_Proximal_m5Normal_S13
+1,B,2,MouseExp3,Mid,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_B2_Mid_m5Normal_S14
+1,B,3,MouseExp3,Distal,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_B3_Distal_m5Normal_S15
+1,B,4,MouseExp3,Proximal,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B4_Proximal_m6Normal_S16
+1,B,5,MouseExp3,Mid,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B5_Mid_m6Normal_S17
+1,B,6,MouseExp3,Distal,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B6_Distal_m6Normal_S18
+1,B,7,MouseExp3,Proximal,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B7_Proximal_m7Normal_S19
+1,B,8,MouseExp3,Mid,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B8_Mid_m7Normal_S20
+1,B,9,MouseExp3,Distal,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B9_Distal_m7Normal_S21
+1,B,10,MouseExp3,Proximal,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B10_Proximal_m8Normal_S22
+1,B,11,MouseExp3,Mid,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B11_Mid_m8Normal_S23
+1,B,12,MouseExp3,Distal,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_B12_Distal_m8Normal_S24
+1,C,1,MouseExp3,Proximal,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_C1_Proximal_m9Normal_S25
+1,C,2,MouseExp3,Mid,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_C2_Mid_m9Normal_S26
+1,C,3,MouseExp3,Distal,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_C3_Distal_m9Normal_S27
+1,C,4,CONTROL,1,,,,,,,,,,,Yes,CONTROL_p1_C4_1__S28
+1,C,5,MouseExp3,Cecum,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_C5_Cecum_m1Normal_S29
+1,C,6,MouseExp3,Cecum,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_C6_Cecum_m2Normal_S30
+1,C,7,MouseExp3,Cecum,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_C7_Cecum_m3Normal_S31
+1,C,8,MouseExp3,Cecum,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_C8_Cecum_m4Normal_S32
+1,C,9,MouseExp3,Cecum,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_C9_Cecum_m5Normal_S33
+1,C,10,MouseExp3,Cecum,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_C10_Cecum_m6Normal_S34
+1,C,11,MouseExp3,Cecum,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_C11_Cecum_m7Normal_S35
+1,C,12,MouseExp3,Cecum,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_C12_Cecum_m8Normal_S36
+1,D,1,MouseExp3,Cecum,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,Yes,MouseExp3_p1_D1_Cecum_m9Normal_S37
+1,D,2,MouseExp3,Stool,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_D2_Stool_m1Normal_S38
+1,D,3,MouseExp3,Stool,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_D3_Stool_m2Normal_S39
+1,D,4,MouseExp3,Stool,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_D4_Stool_m3Normal_S40
+1,D,5,MouseExp3,Stool,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,Yes,MouseExp3_p1_D5_Stool_m4Normal_S41
+1,D,6,CONTROL,2,,,,,,,,,,,Yes,CONTROL_p1_D6_2__S42
+1,D,7,MouseExp3,Stool,m6,3.22.22,30,118,,syn_Stool,,,,,Yes,MouseExp3_p1_D7_Stool_m6_S43
+1,D,8,MouseExp3,Stool,m7,3.22.22,30,118,,syn_Stool,,,,,Yes,MouseExp3_p1_D8_Stool_m7_S44
+1,D,9,MouseExp3,Stool,m8,3.22.22,30,118,,syn_Stool,,,,,Yes,MouseExp3_p1_D9_Stool_m8_S45
+1,D,10,MouseExp3,Stool,m9,3.22.22,30,118,,syn_Stool,,,,,Yes,MouseExp3_p1_D10_Stool_m9_S46
+1,D,11,m3g1,well_A1,Isolate,,,,,syn_Stool,,Bacteroides uniformis,SIILY,,Yes,m3g1_p1_D11_well_A1_Isolate_S47
+1,D,12,m3g1,well_A2,Isolate,,,,,syn_Stool,,Bacteroides salyersiae,mStool,,Yes,m3g1_p1_D12_well_A2_Isolate_S48
+1,E,1,m3g1,well_A3,Isolate,,,,,syn_Stool,,Bacteroides thetaiotaomicron,mStool,,Yes,m3g1_p1_E1_well_A3_Isolate_S49
+1,E,2,m3g1,well_A4,Isolate,,,,,syn_Stool,,Bacteroides kribbi,hStool,,Yes,m3g1_p1_E2_well_A4_Isolate_S50
+1,E,3,m3g1,well_A5,Isolate,,,,,syn_Stool,,Bacteroides vulgatus,SIILY,,Yes,m3g1_p1_E3_well_A5_Isolate_S51
+1,E,4,m3g1,well_A6,Isolate,,,,,syn_Stool,,Alistipes shaii,SIILY,,Yes,m3g1_p1_E4_well_A6_Isolate_S52
+1,E,5,m3g1,well_A7,Isolate,,,,,syn_Stool,,Parabacteroides distasonis,mStool,,Yes,m3g1_p1_E5_well_A7_Isolate_S53
+1,E,6,m3g1,well_A8,Isolate,,,,,syn_SI,,Phascolarctobacterium faecium,SIILY,,Yes,m3g1_p1_E6_well_A8_Isolate_S54
+1,E,7,m3g1,well_A9,Isolate,,,,,syn_Stool,,[Clostridium] clostridioforme,mStool,,Yes,m3g1_p1_E7_well_A9_Isolate_S55
+1,E,8,m3g1,well_A10,Isolate,,,,,syn_SI,,Anaerostipes hadrus,mStool,,Yes,m3g1_p1_E8_well_A10_Isolate_S56
+1,E,9,m3g1,well_A11,Isolate,,,,,syn_SI,,Blautia faecis,mStool,,Yes,m3g1_p1_E9_well_A11_Isolate_S57
+1,E,10,m3g1,well_A12,Isolate,,,,,syn_Stool,,Lactobacillus rhamnosus,SIILY,,Yes,m3g1_p1_E10_well_A12_Isolate_S58
+1,E,11,m3g1,well_B1,Isolate,,,,,syn_Stool,,Veillonella NA,SIILY,,Yes,m3g1_p1_E11_well_B1_Isolate_S59
+1,E,12,m3g1,well_B2,Isolate,,,,,syn_SI,,Dorea longicatena,SIILY,,Yes,m3g1_p1_E12_well_B2_Isolate_S60
+1,F,1,m3g1,well_B3,Isolate,,,,,syn_SI,,Escherichia/Shigella NA,SIILY,,Yes,m3g1_p1_F1_well_B3_Isolate_S61
+1,F,2,m3g1,well_B4,Isolate,,,,,syn_SI,,Bifidobaterium NA,SIILY,,Yes,m3g1_p1_F2_well_B4_Isolate_S62
+1,F,3,m3g1,well_B5,Isolate,,,,,syn_SI,,Enterococcus saigonensis,hStool,,Yes,m3g1_p1_F3_well_B5_Isolate_S63
+1,F,4,m3g1,well_B6,Isolate,,,,,syn_SI,,Bifidobaterium NA,SIILY,,Yes,m3g1_p1_F4_well_B6_Isolate_S64
+1,F,5,m3g2,well_A1,Isolate,,,,,syn_SI,,Phascolarctobacterium faecium,SIILY,,Yes,m3g2_p1_F5_well_A1_Isolate_S65
+1,F,6,m3g2,well_A2,Isolate,,,,,syn_SI,,Anaerostipes hadrus,mStool,,Yes,m3g2_p1_F6_well_A2_Isolate_S66
+1,F,7,m3g2,well_A3,Isolate,,,,,syn_SI,,Blautia faecis,mStool,,Yes,m3g2_p1_F7_well_A3_Isolate_S67
+1,F,8,m3g2,well_A4,Isolate,,,,,syn_SI,,Bifidobaterium NA,SIILY,,Yes,m3g2_p1_F8_well_A4_Isolate_S68
+1,F,9,m3g2,well_A5,Isolate,,,,,syn_SI,,Escherichia/Shigella NA,SIILY,,Yes,m3g2_p1_F9_well_A5_Isolate_S69
+1,F,10,m3g2,well_A6,Isolate,,,,,syn_SI,,Dorea longicatena,SIILY,,Yes,m3g2_p1_F10_well_A6_Isolate_S70
+1,F,11,m3g2,well_A7,Isolate,,,,,syn_SI,,Enterococcus saigonensis,hStool,,Yes,m3g2_p1_F11_well_A7_Isolate_S71
+1,F,12,m3g2,well_A8,Isolate,,,,,syn_SI,,Bifidobaterium NA,SIILY,,Yes,m3g2_p1_F12_well_A8_Isolate_S72
+1,G,1,m3g2,well_A9,Isolate,,,,,syn_Stool,,Bacteroides uniformis,SIILY,,Yes,m3g2_p1_G1_well_A9_Isolate_S73
+1,G,2,m3g2,well_A10,Isolate,,,,,syn_Stool,,Bacteroides salyersiae,mStool,,Yes,m3g2_p1_G2_well_A10_Isolate_S74
+1,G,3,m3g2,well_A11,Isolate,,,,,syn_Stool,,Bacteroides thetaiotaomicron,mStool,,Yes,m3g2_p1_G3_well_A11_Isolate_S75
+1,G,4,m3g2,well_A12,Isolate,,,,,syn_Stool,,Bacteroides kribbi,hStool,,Yes,m3g2_p1_G4_well_A12_Isolate_S76
+1,G,5,m3g2,well_B1,Isolate,,,,,syn_Stool,,Bacteroides vulgatus,SIILY,,Yes,m3g2_p1_G5_well_B1_Isolate_S77
+1,G,6,m3g2,well_B2,Isolate,,,,,syn_Stool,,Alistipes shaii,SIILY,,Yes,m3g2_p1_G6_well_B2_Isolate_S78
+1,G,7,m3g2,well_B3,Isolate,,,,,syn_Stool,,Parabacteroides distasonis,mStool,,Yes,m3g2_p1_G7_well_B3_Isolate_S79
+1,G,8,m3g2,well_B4,Isolate,,,,,syn_Stool,,[Clostridium] clostridioforme,mStool,,Yes,m3g2_p1_G8_well_B4_Isolate_S80
+1,G,9,m3g2,well_B5,Isolate,,,,,syn_Stool,,Lactobacillus rhamnosus,SIILY,,Yes,m3g2_p1_G9_well_B5_Isolate_S81
+1,G,10,m3g2,well_B6,Isolate,,,,,syn_Stool,,Veillonella NA,SIILY,,Yes,m3g2_p1_G10_well_B6_Isolate_S82
+1,G,11,m3g2,well_B7,Isolate,,,,,CONTAMINATED,,,,,Yes,m3g2_p1_G11_well_B7_Isolate_S83
+1,G,12,m3g2,well_B8,Isolate,,,,,Challenge,,Slackia isoflaconiconvertens,SIILY,,Yes,m3g2_p1_G12_well_B8_Isolate_S84
+1,H,1,m3g2,well_B9,Isolate,,,,,Challenge,,Dorea formicigenerans,SIILY,,Yes,m3g2_p1_H1_well_B9_Isolate_S85
+1,H,2,m3g2,well_B10,Isolate,,,,,Challenge,,Parabacteroides merdae,SIILY,,Yes,m3g2_p1_H2_well_B10_Isolate_S86
+1,H,3,m3g2,well_B11,Isolate,,,,,Challenge,,Sutterella wadsworthensis,SIILY,,Yes,m3g2_p1_H3_well_B11_Isolate_S87
+1,H,4,m3g2,well_B12,Isolate,,,,,Challenge,,Streptococcus NA,SIILY,,Yes,m3g2_p1_H4_well_B12_Isolate_S88
+1,H,5,m3g2,well_C1,Isolate,,,,,Challenge,,Gemella NA,SIILY,,Yes,m3g2_p1_H5_well_C1_Isolate_S89
+1,H,6,m3g2,well_C2,Isolate,,,,,Challenge,,Streptococcus NA,SIILY,,Yes,m3g2_p1_H6_well_C2_Isolate_S90
+1,H,7,m3g2,well_C3,Isolate,,,,,Challenge,,Staphylococcus NA,SIILY,,Yes,m3g2_p1_H7_well_C3_Isolate_S91
+1,H,8,m3g2,well_C4,Isolate,,,,,Challenge,,Collinsella aerofaciens,hStool,,Yes,m3g2_p1_H8_well_C4_Isolate_S92
+1,H,9,m3g2,well_C5,Isolate,,,,,Challenge,,Collinsella aerofaciens,mStool,,Yes,m3g2_p1_H9_well_C5_Isolate_S93
+1,H,10,m3g2,well_C6,Isolate,,,,,Challenge,,Bacillus wiedmannii,hStool,,Yes,m3g2_p1_H10_well_C6_Isolate_S94
+1,H,11,m3g2,well_C7,Isolate,,,,,Challenge,,Streptococcus rubneri,hStool,,Yes,m3g2_p1_H11_well_C7_Isolate_S95
+1,H,12,m3g2,well_C8,Isolate,,,,,Challenge,,Bilophila wadsworthia,Type,,Yes,m3g2_p1_H12_well_C8_Isolate_S96
+2,A,1,MouseExp3,Proximal,m1,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A1_Proximal_m1Normal_S97
+2,A,2,MouseExp3,Mid,m1,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A2_Mid_m1Normal_S98
+2,A,3,MouseExp3,Distal,m1,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A3_Distal_m1Normal_S99
+2,A,4,MouseExp3,Proximal,m2,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A4_Proximal_m2Normal_S100
+2,A,5,MouseExp3,Mid,m2,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A5_Mid_m2Normal_S101
+2,A,6,MouseExp3,Distal,m2,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A6_Distal_m2Normal_S102
+2,A,7,MouseExp3,Proximal,m3,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A7_Proximal_m3Normal_S103
+2,A,8,MouseExp3,Mid,m3,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A8_Mid_m3Normal_S104
+2,A,9,MouseExp3,Distal,m3,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A9_Distal_m3Normal_S105
+2,A,10,MouseExp3,Proximal,m4,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A10_Proximal_m4Normal_S106
+2,A,11,MouseExp3,Mid,m4,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A11_Mid_m4Normal_S107
+2,A,12,MouseExp3,Distal,m4,4.20.22,,,,syn_Stool_syn_SI,SW,,,Normal,,MouseExp3_p2_A12_Distal_m4Normal_S108
+2,B,1,MouseExp3,Proximal,m5,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B1_Proximal_m5Normal_S109
+2,B,2,MouseExp3,Mid,m5,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B2_Mid_m5Normal_S110
+2,B,3,MouseExp3,Distal,m5,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B3_Distal_m5Normal_S111
+2,B,4,MouseExp3,Proximal,m6,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B4_Proximal_m6Normal_S112
+2,B,5,MouseExp3,Mid,m6,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B5_Mid_m6Normal_S113
+2,B,6,MouseExp3,Distal,m6,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B6_Distal_m6Normal_S114
+2,B,7,MouseExp3,Proximal,m7,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B7_Proximal_m7Normal_S115
+2,B,8,MouseExp3,Mid,m7,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B8_Mid_m7Normal_S116
+2,B,9,MouseExp3,Distal,m7,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B9_Distal_m7Normal_S117
+2,B,10,MouseExp3,Proximal,m8,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B10_Proximal_m8Normal_S118
+2,B,11,MouseExp3,Mid,m8,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B11_Mid_m8Normal_S119
+2,B,12,MouseExp3,Distal,m8,4.20.22,,,,syn_SI_syn_Stool,SW,,,Normal,,MouseExp3_p2_B12_Distal_m8Normal_S120
+2,C,1,MouseExp3,Proximal,m9,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C1_Proximal_m9noFiber_S121
+2,C,2,MouseExp3,Mid,m9,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C2_Mid_m9noFiber_S122
+2,C,3,MouseExp3,Distal,m9,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C3_Distal_m9noFiber_S123
+2,C,4,MouseExp3,Proximal,m10,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C4_Proximal_m10noFiber_S124
+2,C,5,MouseExp3,Mid,m10,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C5_Mid_m10noFiber_S125
+2,C,6,MouseExp3,Distal,m10,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C6_Distal_m10noFiber_S126
+2,C,7,MouseExp3,Proximal,m11,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C7_Proximal_m11noFiber_S127
+2,C,8,MouseExp3,Mid,m11,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C8_Mid_m11noFiber_S128
+2,C,9,MouseExp3,Distal,m11,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C9_Distal_m11noFiber_S129
+2,C,10,MouseExp3,Proximal,m12,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C10_Proximal_m12noFiber_S130
+2,C,11,MouseExp3,Mid,m12,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C11_Mid_m12noFiber_S131
+2,C,12,MouseExp3,Distal,m12,4.20.22,,,,syn_SI_syn_Stool,SW,,,noFiber,,MouseExp3_p2_C12_Distal_m12noFiber_S132
+2,D,1,MouseExp3,Proximal,m13,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D1_Proximal_m13Normal_S133
+2,D,2,MouseExp3,Mid,m13,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D2_Mid_m13Normal_S134
+2,D,3,MouseExp3,Distal,m13,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D3_Distal_m13Normal_S135
+2,D,4,MouseExp3,Proximal,m14,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D4_Proximal_m14Normal_S136
+2,D,5,MouseExp3,Mid,m14,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D5_Mid_m14Normal_S137
+2,D,6,MouseExp3,Distal,m14,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D6_Distal_m14Normal_S138
+2,D,7,MouseExp3,Proximal,m15,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D7_Proximal_m15Normal_S139
+2,D,8,MouseExp3,Mid,m15,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D8_Mid_m15Normal_S140
+2,D,9,MouseExp3,Distal,m15,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D9_Distal_m15Normal_S141
+2,D,10,MouseExp3,Proximal,m16,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D10_Proximal_m16Normal_S142
+2,D,11,MouseExp3,Mid,m16,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D11_Mid_m16Normal_S143
+2,D,12,MouseExp3,Distal,m16,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,Normal,,MouseExp3_p2_D12_Distal_m16Normal_S144
+2,E,1,MouseExp3,Proximal,m17,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E1_Proximal_m17noFiber_S145
+2,E,2,MouseExp3,Mid,m17,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E2_Mid_m17noFiber_S146
+2,E,3,MouseExp3,Distal,m17,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E3_Distal_m17noFiber_S147
+2,E,4,MouseExp3,Proximal,m18,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E4_Proximal_m18noFiber_S148
+2,E,5,MouseExp3,Mid,m18,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E5_Mid_m18noFiber_S149
+2,E,6,MouseExp3,Distal,m18,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E6_Distal_m18noFiber_S150
+2,E,7,MouseExp3,Proximal,m19,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E7_Proximal_m19noFiber_S151
+2,E,8,MouseExp3,Mid,m19,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E8_Mid_m19noFiber_S152
+2,E,9,MouseExp3,Distal,m19,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E9_Distal_m19noFiber_S153
+2,E,10,MouseExp3,Proximal,m20,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E10_Proximal_m20noFiber_S154
+2,E,11,MouseExp3,Mid,m20,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E11_Mid_m20noFiber_S155
+2,E,12,MouseExp3,Distal,m20,4.20.22,,,,syn_SI_syn_Stool_syn_All,SW,,,noFiber,,MouseExp3_p2_E12_Distal_m20noFiber_S156
+2,F,1,CONTROL,,,,,,,,,,,,,CONTROL_p2_F1___S157
+2,F,2,MouseExp3,Cecum,m1,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_F2_Cecum_m1Normal_S158
+2,F,3,MouseExp3,Cecum,m2,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_F3_Cecum_m2Normal_S159
+2,F,4,MouseExp3,Cecum,m3,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_F4_Cecum_m3Normal_S160
+2,F,5,MouseExp3,Cecum,m4,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_F5_Cecum_m4Normal_S161
+2,F,6,MouseExp3,Cecum,m5,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_F6_Cecum_m5Normal_S162
+2,F,7,MouseExp3,Cecum,m6,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_F7_Cecum_m6Normal_S163
+2,F,8,MouseExp3,Cecum,m7,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_F8_Cecum_m7Normal_S164
+2,F,9,MouseExp3,Cecum,m8,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_F9_Cecum_m8Normal_S165
+2,F,10,MouseExp3,Cecum,m9,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_F10_Cecum_m9noFiber_S166
+2,F,11,MouseExp3,Cecum,m10,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_F11_Cecum_m10noFiber_S167
+2,F,12,MouseExp3,Cecum,m11,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_F12_Cecum_m11noFiber_S168
+2,G,1,MouseExp3,Cecum,m12,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_G1_Cecum_m12noFiber_S169
+2,G,2,MouseExp3,Cecum,m13,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p2_G2_Cecum_m13Normal_S170
+2,G,3,MouseExp3,Cecum,m14,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p2_G3_Cecum_m14Normal_S171
+2,G,4,MouseExp3,Cecum,m15,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p2_G4_Cecum_m15Normal_S172
+2,G,5,MouseExp3,Cecum,m16,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p2_G5_Cecum_m16Normal_S173
+2,G,6,MouseExp3,Cecum,m17,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p2_G6_Cecum_m17noFiber_S174
+2,G,7,MouseExp3,Cecum,m18,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p2_G7_Cecum_m18noFiber_S175
+2,G,8,MouseExp3,Cecum,m19,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p2_G8_Cecum_m19noFiber_S176
+2,G,9,MouseExp3,Cecum,m20,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p2_G9_Cecum_m20noFiber_S177
+2,G,10,CONTROL,,,,,,,,,,,,,CONTROL_p2_G10___S178
+2,G,11,MouseExp3,Stool,m1,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_G11_Stool_m1Normal_S179
+2,G,12,MouseExp3,Stool,m2,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_G12_Stool_m2Normal_S180
+2,H,1,MouseExp3,Stool,m3,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_H1_Stool_m3Normal_S181
+2,H,2,MouseExp3,Stool,m4,4.20.22,,,,syn_Stool_syn_SI,,,,Normal,,MouseExp3_p2_H2_Stool_m4Normal_S182
+2,H,3,MouseExp3,Stool,m5,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_H3_Stool_m5Normal_S183
+2,H,4,MouseExp3,Stool,m6,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_H4_Stool_m6Normal_S184
+2,H,5,MouseExp3,Stool,m7,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_H5_Stool_m7Normal_S185
+2,H,6,MouseExp3,Stool,m8,4.20.22,,,,syn_SI_syn_Stool,,,,Normal,,MouseExp3_p2_H6_Stool_m8Normal_S186
+2,H,7,MouseExp3,Stool,m9,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_H7_Stool_m9noFiber_S187
+2,H,8,MouseExp3,Stool,m10,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_H8_Stool_m10noFiber_S188
+2,H,9,MouseExp3,Stool,m11,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_H9_Stool_m11noFiber_S189
+2,H,10,MouseExp3,Stool,m12,4.20.22,,,,syn_SI_syn_Stool,,,,noFiber,,MouseExp3_p2_H10_Stool_m12noFiber_S190
+2,H,11,MouseExp3,Stool,m13,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p2_H11_Stool_m13Normal_S191
+2,H,12,MouseExp3,Stool,m14,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p2_H12_Stool_m14Normal_S192
+3,A,1,MouseExp3,Stool,m15,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p3_A1_Stool_m15Normal_S193
+3,A,2,MouseExp3,Stool,m16,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,Normal,,MouseExp3_p3_A2_Stool_m16Normal_S194
+3,A,3,MouseExp3,Stool,m17,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p3_A3_Stool_m17noFiber_S195
+3,A,4,MouseExp3,Stool,m18,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,Contaminated post-DNA allocation with A5,MouseExp3_p3_A4_Stool_m18noFiber_S196
+3,A,5,MouseExp3,Stool,m19,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p3_A5_Stool_m19noFiber_S197
+3,A,6,MouseExp3,Stool,m20,4.20.22,,,,syn_SI_syn_Stool_syn_All,,,,noFiber,,MouseExp3_p3_A6_Stool_m20noFiber_S198
+3,A,7,MouseExp2,Day0_Gavage,,,,,,Small_Intestine,,,,,,MouseExp2_p3_A7_Day0_Gavage__S199
+3,A,8,MouseExp2,Day0_Gavage,,,,,,Stool,,,,,,MouseExp2_p3_A8_Day0_Gavage__S200
+3,A,9,m3g1,Day0_Gavage,,,,,,syn_SI,,,,,,m3g1_p3_A9_Day0_Gavage__S201
+3,A,10,m3g1,Day0_Gavage,,,,,,syn_Stool,,,,,,m3g1_p3_A10_Day0_Gavage__S202
+3,A,11,m3g2,Day0_Gavage,,,,,,syn_SI,,,,,,m3g2_p3_A11_Day0_Gavage__S203
+3,A,12,m3g2,Day0_Gavage,,,,,,syn_Stool,,,,,,m3g2_p3_A12_Day0_Gavage__S204
+3,B,1,m3g2,Day0_Gavage,,,,,,Complete,,,,,,m3g2_p3_B1_Day0_Gavage__S205
+3,B,2,m3g2,Well_D1,,,,,,,,,,,,m3g2_p3_B2_Well_D1__S206
+3,B,3,m3g2,Well_D2,,,,,,,,,,,,m3g2_p3_B3_Well_D2__S207
+3,B,4,m3g2,Well_D3,,,,,,,,,,,,m3g2_p3_B4_Well_D3__S208
+3,B,5,m3g2,Well_D4,,,,,,,,,,,,m3g2_p3_B5_Well_D4__S209
+3,B,6,m3g2,Well_D5,,,,,,,,,,,,m3g2_p3_B6_Well_D5__S210
+3,B,7,m3g2,Well_D6,,,,,,,,,,,,m3g2_p3_B7_Well_D6__S211
+3,C,1,m3g2,Akk_1,,,,,,,,,,,,m3g2_p3_C1_Akk_1__S217
+3,C,2,m3g2,Akk_2,,,,,,,,,,,,m3g2_p3_C2_Akk_2__S218
+3,C,3,m3g2,Akk_3,,,,,,,,,,,,m3g2_p3_C3_Akk_3__S219
+3,C,4,m3g2,Akk_4,,,,,,,,,,,,m3g2_p3_C4_Akk_4__S220
+3,C,12,MouseExp3,original_2522_capsule,,,,,,,,,,,,MouseExp3_p3_C12_original_2522_capsule__S228
+,A,1,MouseExp3,Proximal,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,2,MouseExp3,Mid,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,3,MouseExp3,Distal,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,4,MouseExp3,Proximal,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,5,MouseExp3,Mid,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,6,MouseExp3,Distal,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,7,MouseExp3,Proximal,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,8,MouseExp3,Mid,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,9,MouseExp3,Distal,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,10,MouseExp3,Proximal,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,11,MouseExp3,Mid,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,A,12,MouseExp3,Distal,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,B,1,MouseExp3,Proximal,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,B,2,MouseExp3,Mid,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,B,3,MouseExp3,Distal,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,B,4,MouseExp3,Proximal,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,5,MouseExp3,Mid,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,6,MouseExp3,Distal,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,7,MouseExp3,Proximal,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,8,MouseExp3,Mid,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,9,MouseExp3,Distal,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,10,MouseExp3,Proximal,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,11,MouseExp3,Mid,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,B,12,MouseExp3,Distal,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,C,1,MouseExp3,Proximal,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,C,2,MouseExp3,Mid,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,C,3,MouseExp3,Distal,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,C,5,MouseExp3,Cecum,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,C,6,MouseExp3,Cecum,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,C,7,MouseExp3,Cecum,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,C,8,MouseExp3,Cecum,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,C,9,MouseExp3,Cecum,m5,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,C,10,MouseExp3,Cecum,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,C,11,MouseExp3,Cecum,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,C,12,MouseExp3,Cecum,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,D,1,MouseExp3,Cecum,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,D,2,MouseExp3,Stool,m1,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,D,3,MouseExp3,Stool,m2,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,D,4,MouseExp3,Stool,m3,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,D,5,MouseExp3,Stool,m4,3.22.22,30,119,,syn_SI,SW,,,Normal,,#REF!
+,D,7,MouseExp3,Stool,m6,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,D,8,MouseExp3,Stool,m7,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,D,9,MouseExp3,Stool,m8,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
+,D,10,MouseExp3,Stool,m9,3.22.22,30,118,,syn_Stool,SW,,,Normal,,#REF!
