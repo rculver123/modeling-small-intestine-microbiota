@@ -33,20 +33,15 @@ library(growthcurver)
 #--------------------------------------------
 # define directories
 #--------------------------------------------
-raw_data_dir = paste0(here::here(), "/data/raw_data/")
-clean_data_dir = paste0(here::here(), "/data/clean_data/")
+raw_data_dir = paste0(here::here(), "/1-data/raw_data/")
+clean_data_dir = paste0(here::here(), "/1-data/clean_data/")
 fig_dir = paste0(here::here(),"/3-figures/")
-tab_dir = paste0(here::here(),"/tables/")
-sherlock = paste0(here::here(),"/data/sherlock_scripts/")
-current_assembly = paste0(here::here(),"/data/sherlock_scripts/siily_isolate_assemblies/current_assembly/")
 
 #--------------------------------------------
 # define clean data paths
 #--------------------------------------------
 
 clean_phyloseq = paste0(clean_data_dir, 'clean_mouse_cultures_phlyoseq.RDS')
-filt_phyloseq = paste0(clean_data_dir, 'filt_mouse_cultures_phlyoseq.RDS')
-
 
 #--------------------------------------------
 # Functions

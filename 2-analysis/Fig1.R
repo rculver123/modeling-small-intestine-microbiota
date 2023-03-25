@@ -16,12 +16,6 @@ genus.order<-readRDS(paste0(fig_dir, 'official_colors.RDS'))
 # Fig. 1A Schematic of device sampling and collection
 #######################################
 
-# Subpanel located in folder
-
-#######################################
-# Fig. 1A Schematic of device sampling and collection
-#######################################
-
 #######################################
 # Fig. 1B Barplots of initial inoculum and final day samples of in vitro communities
 #######################################
@@ -621,12 +615,8 @@ df2plot <- psmelt(ps2plot) %>%
   dplyr::summarise(Abundance=sum(Abundance)) %>% ungroup() %>%
   arrange(Buffer, pH)
 
+# Plotting order
 df2plot %>% filter(Abundance > 0) %>% select(pH, Buffer, Family) %>% unique() %>% data.frame()
-
-x_label <- df2plot$pH_SeqName
-
-df2plot <- df2plot %>%
-  mutate(pH_SeqName = factor(pH_SeqName, levels=x_label))
 
 (f<-ggplot(df2plot , aes(x=pH_SeqName, y=Abundance, fill=Family)) +
     geom_bar(stat='identity') +
@@ -670,6 +660,3 @@ df.shannon2 <- data.frame(ps.shannon2@sam_data) %>%
   theme_minimal () +
   ylim(0,3))
 ggsave(paste0(fig_dir, 'subpanels/Fig_1G_shannonDiv.pdf'),width=4,height=3)
-
-
-
