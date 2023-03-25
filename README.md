@@ -21,5 +21,6 @@ chronological order.
 The 3-figures directory includes the final assembled figures, the subpanels, and the supplementary tables.
 
 Raw data is available from the following public repositories:
+- 16S sequencing data is available on NCBI Sequencing Read Archive under SRA SUB12989384
 
 Questions can be directed to Rebecca Culver (rculver@stanford.edu) or KC Huang (kchuang@stanford.edu).
