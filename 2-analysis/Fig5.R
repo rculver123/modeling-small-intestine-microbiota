@@ -141,19 +141,9 @@ df.final %>% group_by(Species) %>%
 
 ggplot(df.final, aes(y=reorder(SeqName,num_cazymes),x=num_cazymes)) +
   geom_bar(stat='identity') +
-  scale_y_discrete(labels = df.final$Species)
+  scale_y_discrete(labels = df.final$Species) +
   theme_minimal()
 ggsave(paste0(fig_dir,'subpanels/Fig_5D_cazymes.pdf'), width=6,height=3)
-
-#enriched.in.sd <- df.final %>%
-#  mutate(enriched_sd = ifelse(Species %in% c('Blautia_A faecis','Dorea_A longicatena','Anaerostipes hadrus',
-#                                             'Sutterella wadsworthensis','Phascolarctobacterium faecium','Bacteroides ovatus',
-#                                             'Bacteroides thetaiotaomicron','Bacteroides uniformis'), 'Mouse stool enriched in SD',
-#                              ifelse(Species %in% c('Lactococcus lactis','Alistipes shahii','Bilophila wadsworthia',
-#                                                    'Enterococcus_B pernyi','Parabacteroides merdae','Bacteroides salyersiae',
-#                                                    'Enterocloster bolteae','Phocaeicola vulgatus'), 'Mouse stool enriched in MD', 'Unknown/Not enriched in either'))) %>%
-#  group_by(Species, enriched_sd) %>%
-#  dplyr::summarise(num_cazymes=n()) %>% arrange(num_cazymes)
 
 
 #######################################

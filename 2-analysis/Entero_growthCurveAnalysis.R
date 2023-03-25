@@ -144,10 +144,6 @@ df.final <- df %>%
   mutate(Type = factor(Type, levels=c('Simple','Complex')))
 
 
-######################################
-# Generate plot
-######################################
-
 strain_colors <- c('red','red','red','red',
                         'orangered1','orangered1','orangered1','orangered1',
                         'orange','orange','orange','orange',
@@ -164,8 +160,6 @@ p<-ggplot(df2plot, aes(y=(value), x=Time, color=Strain_Rep)) +
   theme_minimal() +
   facet_wrap(~Type+Carbon) +
   ylim(0,1.4)
-ggsave(paste0(fig_dir, 'subpanels/Fig_X_enteroGrowth.pdf'), width=14,height=14)
-                        
 
                         
                         

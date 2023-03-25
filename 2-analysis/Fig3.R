@@ -444,7 +444,7 @@ ggplot(df2plot.corr,
   stat_cor(method='pearson') +
   xlab('SI of SICom into \nStoolCom-colonized mice')+
   ylab('SI of DualCom- \ncolonized mice')
-ggsave(paste0(fig_dir,'subpanels/Fig_SX.pdf'), width=2.5,height=2.5)
+#ggsave(paste0(fig_dir,'subpanels/Fig_SX.pdf'), width=2.5,height=2.5)
 
 ggplot(df2plot.corr,
        aes(x=mouse_exp1_Small.Intestine_SC.into.IC.mouse, y=mouse_exp2_Small.Intestine_Stool.SI)) +
@@ -456,7 +456,7 @@ ggplot(df2plot.corr,
   stat_cor(method='pearson') +
   xlab('SI of StoolCom into \nSICom-colonized mice')+
   ylab('SI of DualCom- \ncolonized mice')
-ggsave(paste0(fig_dir,'subpanels/Fig_SX.pdf'), width=2.5,height=2.5)
+#ggsave(paste0(fig_dir,'subpanels/Fig_SX.pdf'), width=2.5,height=2.5)
 
 
 # Small intestine of cross-colonization

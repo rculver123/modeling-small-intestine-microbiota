@@ -1,0 +1,54 @@
+"","SeqName","Community","Abundance","Genus","Species"
+"1","m3g2_p1_F10_well_A6_Isolate_S70","Dorea longicatena",0.884162985756117,"Dorea","longicatena"
+"2","m3g2_p1_F10_well_A6_Isolate_S70","Dorea longicatena",0.114000694823564,"Dorea",NA
+"3","m3g2_p1_F11_well_A7_Isolate_S71","Enterococcus saigonensis",0.828270647285053,"Enterococcus",NA
+"4","m3g2_p1_F11_well_A7_Isolate_S71","Enterococcus saigonensis",0.170816765530278,"Enterococcus","faecium"
+"5","m3g2_p1_F12_well_A8_Isolate_S72","Bifidobaterium NA",0.838839285714286,"Lactobacillus",NA
+"6","m3g2_p1_F12_well_A8_Isolate_S72","Bifidobaterium NA",0.160714285714286,"Lactobacillus","rhamnosus"
+"7","m3g2_p1_F5_well_A1_Isolate_S65","Phascolarctobacterium faecium",0.517269402681837,"Anoxybacillus",NA
+"8","m3g2_p1_F5_well_A1_Isolate_S65","Phascolarctobacterium faecium",0.322531491263714,"Lactococcus",NA
+"9","m3g2_p1_F6_well_A2_Isolate_S66","Anaerostipes hadrus",0.674511191719013,"Anaerostipes","hadrus"
+"10","m3g2_p1_F6_well_A2_Isolate_S66","Anaerostipes hadrus",0.323719366539857,"Anaerostipes","hadrus"
+"11","m3g2_p1_F7_well_A3_Isolate_S67","Blautia faecis",0.995332060258858,"Blautia","faecis"
+"12","m3g2_p1_F8_well_A4_Isolate_S68","Bifidobaterium NA",0.999481357690313,"Bifidobacterium",NA
+"13","m3g2_p1_F9_well_A5_Isolate_S69","Escherichia/Shigella NA",0.999618611746758,"Escherichia/Shigella",NA
+"14","m3g2_p1_G12_well_B8_Isolate_S84","Slackia isoflaconiconvertens",0.454355400696864,"Slackia","isoflavoniconvertens"
+"15","m3g2_p1_G12_well_B8_Isolate_S84","Slackia isoflaconiconvertens",0.30281425891182,"Anoxybacillus",NA
+"16","m3g2_p1_G12_well_B8_Isolate_S84","Slackia isoflaconiconvertens",0.100026802465827,"Lactococcus",NA
+"17","m3g2_p1_G3_well_A11_Isolate_S75","Bacteroides thetaiotaomicron",0.968657915885347,"Bacteroides",NA
+"18","m3g2_p1_G4_well_A12_Isolate_S76","Bacteroides kribbi",0.945805925839688,"Bacteroides",NA
+"19","m3g2_p1_G5_well_B1_Isolate_S77","Bacteroides vulgatus",0.998981373690338,"Bacteroides","vulgatus"
+"20","m3g2_p1_G6_well_B2_Isolate_S78","Alistipes shaii",0.999282318112497,"Alistipes","shahii"
+"21","m3g2_p1_G7_well_B3_Isolate_S79","Parabacteroides distasonis ATCC 8503",0.734494825403916,"Parabacteroides","distasonis"
+"22","m3g2_p1_G7_well_B3_Isolate_S79","Parabacteroides distasonis ATCC 8503",0.264537264537265,"Parabacteroides","distasonis"
+"23","m3g2_p1_G8_well_B4_Isolate_S80","[Clostridium] clostridioforme",0.793341667214948,"Lachnoclostridium",NA
+"24","m3g2_p1_G8_well_B4_Isolate_S80","[Clostridium] clostridioforme",0.205441147443911,"Lachnoclostridium",NA
+"25","m3g2_p1_G9_well_B5_Isolate_S81","Lactobacillus rhamnosus",0.821260242186933,"Lactobacillus",NA
+"26","m3g2_p1_G9_well_B5_Isolate_S81","Lactobacillus rhamnosus",0.177144514538467,"Lactobacillus","rhamnosus"
+"27","m3g2_p1_H1_well_B9_Isolate_S85","Dorea formicigenerans",0.998047790098391,"Dorea","formicigenerans"
+"28","m3g2_p1_H10_well_C6_Isolate_S94","Bacillus wiedmannii",0.922666265649085,"Bacillus",NA
+"29","m3g2_p1_H11_well_C7_Isolate_S95","Streptococcus rubneri",0.998583826573223,"Streptococcus",NA
+"30","m3g2_p1_H12_well_C8_Isolate_S96","Bilophila wadsworthia",0.997900456959368,"Bilophila","wadsworthia"
+"31","m3g2_p1_H2_well_B10_Isolate_S86","Parabacteroides merdae",0.998803827751196,"Parabacteroides","merdae"
+"32","m3g2_p1_H3_well_B11_Isolate_S87","Sutterella wadsworthensis",0.992214111922141,"Sutterella","wadsworthensis"
+"33","m3g2_p1_H4_well_B12_Isolate_S88","Streptococcus NA",0.494280078895463,"Bacteroides",NA
+"34","m3g2_p1_H4_well_B12_Isolate_S88","Streptococcus NA",0.399013806706114,"Streptococcus",NA
+"35","m3g2_p1_H4_well_B12_Isolate_S88","Streptococcus NA",0.105325443786982,"Bacteroides",NA
+"36","m3g2_p1_H5_well_C1_Isolate_S89","Gemella NA",0.997246992638698,"Gemella",NA
+"37","m3g2_p1_H6_well_C2_Isolate_S90","Streptococcus NA",0.816867469879518,"Streptococcus",NA
+"38","m3g2_p1_H6_well_C2_Isolate_S90","Streptococcus NA",0.180722891566265,"Bacteroides","vulgatus"
+"39","m3g2_p1_H7_well_C3_Isolate_S91","Staphylococcus NA",0.998515831134565,"Staphylococcus",NA
+"40","m3g2_p1_H8_well_C4_Isolate_S92","Collinsella aerofaciens",0.397437054417471,"Anoxybacillus",NA
+"41","m3g2_p1_H8_well_C4_Isolate_S92","Collinsella aerofaciens",0.187618445988629,"Lachnoclostridium",NA
+"42","m3g2_p1_H8_well_C4_Isolate_S92","Collinsella aerofaciens",0.153776734951719,"Lactococcus",NA
+"43","m3g2_p1_H8_well_C4_Isolate_S92","Collinsella aerofaciens",0.12598140962007,"Proteus",NA
+"44","m3g2_p3_B2_Well_D1__S206","Holdmanella sp",0.951446540880503,"Holdemanella","biformis"
+"45","m3g2_p3_B3_Well_D2__S207","Parasutterella sp",0.398792756539235,"Akkermansia","muciniphila"
+"46","m3g2_p3_B3_Well_D2__S207","Parasutterella sp",0.308696624189582,"Parasutterella","excrementihominis"
+"47","m3g2_p3_B3_Well_D2__S207","Parasutterella sp",0.136194947462553,"Holdemanella","biformis"
+"48","m3g2_p3_B4_Well_D3__S208","Faecalibacterium prausnitzii",0.675347420521607,"Faecalibacterium",NA
+"49","m3g2_p3_B4_Well_D3__S208","Faecalibacterium prausnitzii",0.259889586902722,"Akkermansia","muciniphila"
+"50","m3g2_p3_C1_Akk_1__S217","Akkermansia 1b",0.999335037300251,"Akkermansia","muciniphila"
+"51","m3g2_p3_C2_Akk_2__S218","AkkermansiaBAA",0.990451014242555,"Akkermansia","muciniphila"
+"52","m3g2_p3_C3_Akk_3__S219","Akkermansia anz",0.98192505972589,"Akkermansia","muciniphila"
+"53","m3g2_p3_C4_Akk_4__S220","Akkermansia am4",0.998807222473574,"Akkermansia",NA

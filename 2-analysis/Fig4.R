@@ -472,7 +472,7 @@ write.csv(all.mice.si, paste0(fig_dir, 'tables_unannotated/unique_pfams_in_si.cs
 
 vars <- read.csv(paste0(raw_data_dir,"metagenomics_organized/variables_metaData.csv")) %>% select(-X)
 files <- list.files(path=paste0(raw_data_dir, 'pfam_output'),pattern="*resolved", full.names=TRUE)
-genome.df <- lapply(files, function(x) read.delim(x, , skip=2, sep=' ', header=FALSE))
+genome.df <- lapply(files, function(x) read.delim(x, skip=2, sep=' ', header=FALSE))
 genome.df <- rbind.fill(genome.df) %>%
   dplyr::rename(query=V1, pfam=V2, score=V3, boundaries=V4, resolved=V5, cond_evalue=V6, indp_evalue=V7)
 

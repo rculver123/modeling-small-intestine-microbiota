@@ -64,6 +64,9 @@ df2plot %>% filter(Family %in% iso.df$Family) %>% group_by (Sample) %>%
 # The NA at the end of all the sample names in this data frame refers to 0 added buffer
 
 
+# df of small intestine isolates from human ONLY
+iso.siily <- iso.df %>% filter(!Sample_Type %in% c('humanStool','mouseStool','mouseSmallIntestine'))
+dim(iso.siily)
 
 # What did the mouse colonization accomplish...
 print('MouseStool not initially present')
@@ -77,9 +80,6 @@ dim(mouseSi)
 dim(mouseSi %>% filter(!Species %in% iso.siily$Species))
 
 ## Comparing humanStool strains to what was acquired from the small intestine
-# df of small intestine isolates from human ONLY
-iso.siily <- iso.df %>% filter(!Sample_Type %in% c('humanStool','mouseStool','mouseSmallIntestine'))
-dim(iso.siily)
 
 print('HumanStool unique species')
 humanStool <- iso.df %>% filter(Sample_Type %in% 'humanStool')

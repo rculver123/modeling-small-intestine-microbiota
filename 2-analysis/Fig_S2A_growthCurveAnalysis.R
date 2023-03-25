@@ -151,3 +151,4 @@ ggplot(df2plot, aes(y=value, x=Buffer, shape=variable)) +
   ggtitle('Starting pH of media') +
   facet_wrap(~pH, nrow=1)
 ggsave(paste0(fig_dir, 'subpanels/Fig_S2A_growthCurveAnalysis.pdf'), width=7,height=3)
+
