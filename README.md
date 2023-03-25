@@ -2,7 +2,7 @@
 
 Repository accompanying the manuscript "Improved mouse models of the small intestine microbiota usiung region-specific sampling"
 
-All code and data analysis written by Rebecca Culver
+All data analysis conducted by Rebecca Culver
 
 ## Description
 
