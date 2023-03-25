@@ -22,4 +22,4 @@ The 3-figures directory includes the final assembled figures, the subpanels, and
 
 Raw data is available from the following public repositories:
 
-Questions can be directoed to Rebecca Culver (rculver@stanford.edu) or KC Huang (kchuang@stanford.edu).
+Questions can be directed to Rebecca Culver (rculver@stanford.edu) or KC Huang (kchuang@stanford.edu).
