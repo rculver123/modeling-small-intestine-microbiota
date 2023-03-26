@@ -102,9 +102,32 @@ ggsave(paste0(fig_dir, 'subpanels/Fig_S1A_pH5.pdf'), width = 5, height = 3)
 # Text: Final OD600 across communities after 48 hrs of growth
 #######################################
 
-## BECCA FILL THIS OUT HERE
+df.ods<-read.csv(paste0(raw_data_dir, '230325_10x_dilution_final_od_c2m4.csv')) %>% melt()
+colnames(df.ods) <- c('Row','Column','od600_10xDilution')
+df.ods %>% 
+  mutate(pH= ifelse(Row %in% 'C',6,
+                    ifelse(Row %in% 'D', 7,
+                      ifelse(Row %in% 'E', 8,
+                             ifelse(Row %in% 'F',9,NA))))) %>%
+  mutate(Inoculum = ifelse(Column %in% c('X1','X2','X3'), 1062,
+                           ifelse(Column %in% c('X4','X5','X6'), 1064,
+                                  ifelse(Column %in% c('X7','X8','X9'), 1065,
+                                         ifelse(Column %in% c('X10','X11','X12'), 197, NA))))) %>%
+  filter(!is.na(pH)==TRUE, !is.na(Column)==TRUE) %>%
+  mutate(final_od = od600_10xDilution*10) %>%
+  group_by(pH, Inoculum) %>%
+  dplyr::summarise(mean_od = mean(final_od)) %>% 
+  arrange(Inoculum, mean_od)
 
-
+# OD600 ratio for each across pH 6-9
+# 197
+6.82/4.74
+#1062
+4.91/2.97
+#1064
+4.81/4.52
+#1065
+4.84/3.39
 #######################################
 # Fig. S1B: Community composition equilibriated quickly
 #######################################
