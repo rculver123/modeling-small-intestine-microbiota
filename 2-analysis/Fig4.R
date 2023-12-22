@@ -12,7 +12,7 @@ genus.order<-readRDS(paste0(fig_dir, 'official_colors.RDS'))
 species.order<-read.csv(paste0(raw_data_dir, 'species_colors.csv'))
 
 #######################################
-# Create a phyloseq object that merges all the SI samples together and reannotates dataframe
+# Create a phyloseq object that merges all the SI samples together and re-annotates dataframe
 #######################################
 
 ps.synMice<- ps %>%
@@ -35,8 +35,8 @@ sample_data(ps.synMice) <- data.frame(ps.synMice@sam_data) %>%
 #######################################
 
 ps.i<-ps %>%
-  subset_samples(Project %in% c('m3g1','m3g2') & SampleType %in% 'Day0_Gavage') %>%
-  filter_taxa(function(x) sum(x) > 10, TRUE) %>% tip_glom(h=0.1)
+  subset_samples(Project %in% c('m3g1','m3g2') & !SampleType %in% 'Day0_Gavage' & !Community %in% c('EMPTY','')) %>%
+  filter_taxa(function(x) sum(x) > 5000, TRUE) %>% tip_glom(h=0.1)
 tax_table(ps.i)
 new_names <- data.frame(tax_table(ps.i)) %>% 
   rownames_to_column("ASV") %>%
@@ -46,7 +46,7 @@ taxa_names(ps.i) <- new_names$name
 
 
 pdf(paste0(fig_dir, 'subpanels/Fig_4B_tree_of_inoculated_species.pdf'), width=26, height=6)
-plot_tree(ps.i, "treeonly",ladderize='right',label.tips="taxa_names")# + coord_polar(theta="y")
+plot_tree(ps.i, "treeonly",ladderize='right',label.tips="taxa_names") # + coord_polar(theta="y")
 dev.off()
 
 #######################################
@@ -128,26 +128,20 @@ write.csv(condensed_si_microbes, paste0(fig_dir,'tables_unannotated/si_enriched_
 # Supplementary Table 5: All isolates that were input into the mice
 #######################################
 
-# The first gavage:
-# There were no FullSynCom so I just did a spot check to make sure everything checks out"
-# also be aware that the isolates were in a random order because I enjoy pain apparently, the "Community" is the isolate it is supposed to be
-gavage1 <- ps %>% subset_samples(Project %in% 'm3g1' & Mouse %in% 'Isolate')
-
-# Okay looking at the second gavage which contains all communities to construct this suppolemental table
-# the "Community" is the isolate it is supposed to be
-gavage2 <- ps %>% subset_samples(Project %in% 'm3g2' & !SampleType %in% 'Day0_Gavage' & !Community %in% c('EMPTY','')) %>%
-  filter_taxa(function(x) sum(x) > 1000, TRUE) %>% # because these are pure isolates %>%
+# Both gavages- the "Community" column indicates what isolate we thought we were growing up based on previous 16S sanger sequencing
+gavage <- ps %>% subset_samples(Project %in% c('m3g1','m3g2') & !SampleType %in% 'Day0_Gavage' & !Community %in% c('EMPTY','')) %>%
+  filter_taxa(function(x) sum(x) > 5000, TRUE) %>% # because these are pure isolates and we want to remove an PCR amplification/sequencing noise
   transform_sample_counts(function(x) x/sum(x))
 
-# Check for contamination
-table<-gavage2 %>% psmelt() %>% filter(Abundance > 0.1) %>% select(SeqName, Community, Abundance, Genus, Species) %>% arrange(SeqName)
+# There are a number of isolates that did not grow up properly (OD^00< 0.1) - we will remove them here:
+# Isolates that did not grow up during the second gavage
+# m3g2_p1_H8_well_C4_Isolate_S92
+# m3g2_p3_B4_Well_D3__S208
 
-# We can see that a few contaminants:
-# m3g2_p1_F12_well_A8_Isolate_S72 - Supposed to be Bifidobacterium but it's actually a L rhamnosus culture
-# m3g2_p1_F5_well_A1_Isolate_S65 - Phascolarctobacterium contains a Lactococcus species
-# m3g2_p1_G12_well_B8_Isolate_S84 - Slackia culture contains a Lactococcus species
-# m3g2_p1_H4_well_B12_Isolate_S88 - Supposed to be a Streptococcus species. This strian did not grow well in the overnight culture, so my guess is that this is cross-contamination from other wells
-# m3g2_p1_H8_well_C4_Isolate_S92 - Similar to the aboce Streptococcus species, Colliinsella does not grow well, so we're liekly seeing a lot of cross-contamination
+table<-gavage %>% psmelt() %>% filter(Abundance > 0.1) %>% 
+  select(SeqName, Community, Abundance, Genus, Species) %>% 
+  arrange(SeqName)
+  
 
 # Everything else looks good - output to a csv that we'll go on to further annotate in excel
 write.csv(table, paste0(fig_dir, 'tables_unannotated/isolates_for_gavage.csv') )
